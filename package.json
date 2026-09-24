@@ -1,0 +1,20 @@
+{
+  "name": "homograph-check",
+  "version": "1.0.0",
+  "description": "Decode Punycode and find out whether a domain is written in the characters you think it is: mixed-script detection, invisible characters and bidi overrides.",
+  "main": "homograph-check.js",
+  "private": true,
+  "scripts": {
+    "test": "node tests/run.js"
+  },
+  "keywords": ["punycode", "idn", "homograph", "phishing", "unicode", "confusables", "domain", "rfc3492"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/examineip/homograph-check.git"
+  },
+  "homepage": "https://tools.examineip.com/homograph-checker/",
+  "engines": {
+    "node": ">=14"
+  }
+}
